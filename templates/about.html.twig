@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>About</h1>
+    <p>The Model-View-Controller (MVC) pattern is a design paradigm that separates the logic of a web application into three interconnected components. This separation helps manage complexity in large applications by dividing the development process into manageable sections:</p>
+    <ul>
+        <li><strong>Model:</strong> The central component of the pattern. It directly manages the data, logic, and rules of the application.</li>
+        <li><strong>View:</strong> Any representation of information, such as a chart, diagram, or table. Multiple views of the same information are possible.</li>
+        <li><strong>Controller:</strong> Accepts input and converts it to commands for the model or view.</li>
+    </ul>
+    <p>By using MVC, developers can more easily isolate parts of their application for modification or testing, leading to more scalable, organized, and manageable codebases. It is particularly useful in team settings where different developers are responsible for various aspects of the application.</p>
+    <a href="https://www.google.se" target="_blank">
+        <img src="{{ asset('img/glider.svg') }}" alt="Glider Icon">
+    </a>
+{% endblock %}

@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.site-header,
+.site-footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  background-size: cover;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2em;
+}
+
+.site-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.site-navigation ul li {
+  margin: 0 10px;
+}
+
+.site-navigation ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.site-navigation ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+h1 {
+  border-bottom: 4px double #ccc;
+}
+
+.site-footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  background-size: cover;
+  font-size: 0.8em;
+}
+
+.footer-content p,
+.footer-content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-content ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-content ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.footer-content ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
