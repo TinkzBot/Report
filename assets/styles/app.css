@@ -84,3 +84,51 @@ h1 {
 .footer-content ul li a:hover {
   background-color: rgba(255, 255, 255, 0.25);
 }
+
+/* Report Page Styles */
+.report-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #343a40;
+  margin-bottom: 20px;
+}
+
+.report-navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.report-navigation ul li a {
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.report-navigation ul li a:hover {
+  background-color: #007bff;
+}
+
+.report-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.report-section h2 {
+  color: #343a40;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.report-title {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+}
