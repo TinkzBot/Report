@@ -3,8 +3,6 @@
 
 ![Project Image](https://www.mindphp.com/images/articles/202001/article-meaning/symfony-logo.png)
 
-Välkommen till projektet Report Web Application. Denna webbapplikation är utvecklad för att ge en översikt och djupare förståelse för rapporteringssystemet inom ramen för kursen. Här kan användare interagera med dynamiskt innehåll och få tillgång till kursrapporter på ett strukturerat sätt.
-
 ## Komma Igång
 
 För att komma igång med projektet, följ instruktionerna nedan.
